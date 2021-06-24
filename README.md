@@ -1,6 +1,6 @@
 Project Title: Code Refactor of Horiseon Website
 
-The Horiseon website is tell users about 3 topics:
+The Horiseon website tells users about 3 topics:
 1. Search Engine Optimization
 2. Online Reputation Management
 3. Social Media Marketing
@@ -11,7 +11,7 @@ This project was to remove redundant items in the Html file and the CSS file whi
 
 Part of the challenge was also to make sure that it followed Html Semantic elements.
 
-alt="" descriptor was added to each image and link for greater accessiblilty but those who are handicaped.
+alt="" descriptor was added to each image for greater accessiblilty but those who are handicaped.
 
 ## The Acceptance Criteria for this project was
 
