@@ -1,25 +1,26 @@
-* {
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+?* sets background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* set the font family, padding, backgound color, and font color for the header*/
 header {
     padding: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets the display type and font size for Header. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* set the parameters for the navigation header/links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -27,26 +28,26 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* sets the list style of the nav list */
 header nav ul{
     list-style-type: none;
 }
-
+/* nav list in header lined up with 25px margin on the left */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 
 }
-
+/* link color and not decoration (such as underlines) */
 a {
     color: #fffafa;
     text-decoration: none;
 }
-
+/* sets the paragraph font size to 16px */
 p {
     font-size: 16px;
 }
-
+/* set the size of the figure on the top of the page, provides its demensions, margins, background size and position  */
 figure{
     height: 800px;
     width: 100%;
@@ -56,22 +57,42 @@ figure{
     background-position: center;
 }
 
+/* sets the control for left justified paragraphs with right margin of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* sets the control for right justified paragraphs with left margin of 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* set the width to 75%, and the left margin to 20px */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets the bottom margin, padding, height, font family, and colors for sections */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* controls height of images */
+section img {
+    max-height: 200px;
+}
+/* sets the section header margin, and font */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* setting for the aside box: font, margin, padding, width, height, color. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -82,40 +103,26 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-summary {
+/* sets the bottom margin of the aside. */
+aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-summary h3 {
+/* sets the marin bottom and text alignment of the aside header. */
+aside div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-summary img {
+/* set the display type for th imgage in the aside, margin, and width. */
+aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-section img {
-    max-height: 200px;
-}
-
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* settings for the footer: padding, font, alignment. */
 footer{
     padding: 30px;
     clear: both;
@@ -123,6 +130,7 @@ footer{
     text-align: center;
 }
 
+/* sets slightly larger font for first line in footer */
 footer h2 {
     font-size: 20px;
 }
