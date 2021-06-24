@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-?* sets background color */
+/* sets background color */
 body {
     background-color: #d9dcd6;
 }
@@ -43,10 +43,7 @@ a {
     color: #fffafa;
     text-decoration: none;
 }
-/* sets the paragraph font size to 16px */
-p {
-    font-size: 16px;
-}
+
 /* set the size of the figure on the top of the page, provides its demensions, margins, background size and position  */
 figure{
     height: 800px;
@@ -57,17 +54,6 @@ figure{
     background-position: center;
 }
 
-/* sets the control for left justified paragraphs with right margin of 25px */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* sets the control for right justified paragraphs with left margin of 25px */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* set the width to 75%, and the left margin to 20px */
 main {
     width: 75%;
@@ -92,6 +78,12 @@ section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* sets the paragraph font size to 16px */
+p {
+    font-size: 16px;
+}
+
 /* setting for the aside box: font, margin, padding, width, height, color. */
 aside {
     margin-right: 20px;
@@ -133,4 +125,16 @@ footer{
 /* sets slightly larger font for first line in footer */
 footer h2 {
     font-size: 20px;
+}
+
+/* sets the control for left justified paragraphs with right margin of 25px */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* sets the control for right justified paragraphs with left margin of 25px */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
