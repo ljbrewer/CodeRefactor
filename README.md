@@ -28,3 +28,6 @@ WHEN I view the heading attributes
 WHEN I view the title element
         THEN I find a concise, descriptive title
 ```
+ https://ljbrewer.github.io/CodeRefactor/
+
+ ![Image of Horiseon Website](https://ljbrewer.github.io/CodeRefactor/assets/images/01-html-css-git-homework-demo.png)
